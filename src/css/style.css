@@ -1,0 +1,57 @@
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--color-light-gray);
+}
+ 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 30px;
+}
+.card {
+max-width: 310px;
+border-radius: 15px;
+background-color: var(--color-white);
+padding: 20px;
+align-items: center;
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px;
+  
+}
+
+.titulo-card {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.paragrafo-card{ 
+    color: var(--color-blue);
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+ }
+
+ .end .encerramento-qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+ }
+
+ 
